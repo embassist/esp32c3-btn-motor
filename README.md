@@ -1,4 +1,9 @@
 ## Firmware:
+### NOTE: keep comments on top of the code, removal seems to lead to
+```
+#[instability::unstable]
+     |     ------------------------ private method defined here
+```
 - clone esp-hal
 - replace `gpio_interrupt.rs` example with `main.rs`
 - ```shell
